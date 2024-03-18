@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>UV care</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/linear.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+        <script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.js"></script>
+		<script src="js/plug.js"></script>
+	</head>
+	<body>
+         <!-- Start preloader -->
+        <div class="pre-loader">
+          <div class="content"><img src="images/logo.png" alt="logo" />
+              <div class="progress-bar"><span class="bar"><span class="progress"></span></span></div>
+          </div>
+        </div>
+         <!-- End preloader -->
+        <div class="over_click"></div>
+	     <!-- start header -->
+        <header>
+            <div class="top_nav">
+                <div class="container">
+                    <div class="top_bar">
+                       <div class="sit_anc">
+                            <a class="fixall" href="#">Main Website</a>
+                        </div> 
+                        <div class="t_lang lg dropdown">
+                          <a href="index.html" class="dropdown-toggle tl_anc tl_en fixall" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                           English <span><i class="fas fa-caret-down"></i></span>
+                          </a>
+                          <ul class="dropdown-menu sam_menu ulfix">
+                            <li>
+                                <a href="index-ar.html" class="tl_ar fixall">
+                                    العربية
+                                </a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down_nav">
+                <div class="container">
+                    <div class="down_bar">
+                        <div class="logo">
+                            <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                        </div>
+            
+                        <div class="main_nav">
+                            <ul class="nav_bar list-unstyled list-inline ulfix">
+                               <span href="#" class="lnr lnr-cross closebtn"></span>
+                                <li class="ulfix"><a class="fixall" href="#">Home</a></li>
+                                <li class="ulfix"><a class="fixall" href="#">About Us</a></li>
+                                <li class="ulfix"><a class="fixall" href="#">Our Products</a></li>
+                                <li class="ulfix"><a class="fixall" href="#">Contact Us </a></li>
+                                <li class="ulfix"><a class="fixall" href="#">Specials</a></li>
+                                <li class="ulfix"><a class="fixall" href="#">New Arrivals</a></li>
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        <ul class="h_recomend list-unstyled list-inline ulfix">
+                            <li class="h_srh ulfix">
+                                <a href="#" class="src_car fixall" data-toggle="modal" data-target=".bs-example-modal-sm">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                            <li class="my_account lg dropdown ulfix">
+                                <a class="re_btn dropdown-toggle fixall" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                                <ul class="dropdown-menu sam_menu ulfix">
+                                    <li><a class="fixall" href="#">Log In</a></li>
+                                    <li><a class="fixall" href="#">Register</a></li>
+                                </ul>
+                            </li>
+                            <li class="h_shoplist ulfix">
+                                <a href="#" class="src_car fixall">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>0</span>
+                                </a>
+                            </li>
+                            
+                            <li class="mob_navbtn ulfix">
+                                <button id="navbtn">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </header>
+       
+           <!-- end header -->
+           
+           <!--------------- start search modal ---------------->
+        <div class="modal fade bs-example-modal-sm over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="lnr lnr-cross"></span>
+            </button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="searchbox">
+                        <input class="searchinput" id="search" placeholder="SEARCH" type="search">
+                        <span class="changed"></span>
+                        <button class="search_icon"type="submit"><span class="lnr lnr-magnifier"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------- end search modal ---------------->
+        
+        
+      <!-- Start Main Slider -->
+      <section class="main_slider_sec">
+        <div class="main_slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="main-slide">
+                      <img src="images/slider.jpg" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="main-slide">
+                      <img src="images/slider.jpg" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="main-slide">
+                      <img src="images/slider.jpg" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="main-slide">
+                      <img src="images/slider.jpg" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+      <!-- end Main Slider -->
+       
+       <!-- start banners -->
+       <section class="our_bans">
+           <div class="container">
+               <div class="bans_slider">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="obans">
+                                   <a href="#">
+                                       <img src="images/b1.jpg" class="img-responsive" />
+                                   </a>
+                               </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="obans">
+                                   <a href="#">
+                                       <img src="images/b2.jpg" class="img-responsive" />
+                                   </a>
+                               </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="obans">
+                                   <a href="#">
+                                       <img src="images/b3.jpg" class="img-responsive" />
+                                   </a>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="swiper-pagination"></div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!-- end banners -->
+       
+       <!-- start bestseller -->
+       <section class="ourbest_seller">
+           <div class="container">
+               <h3 class="uv_title hhfix">BESTSELLERS</h3>
+               <div class="row">
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p1.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Super Air Cleaner Pro Medical Grade H13 Filter wi...</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                                   <span class="price_pre">15000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p2.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Clean Air 6-in-1 Air Purifi er with HEPA filter and UV ...</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p3.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Portable Germinator 2.0</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p4.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">Stayfresh! Canada Breathe Clean</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p5.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Portable Germ Zapper</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p6.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Room Zapper</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p7.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Family Toothbrush Sterilizer</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p8.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Pocket Sterilizer</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       
+       <!-- end bestseller -->
+        
+        
+        <!-- start big banner -->
+        <section class="our_bans">
+            <div class="obans">
+               <a href="#">
+                   <img src="images/big-b.jpg" class="img-responsive" />
+               </a>
+           </div>
+        </section>
+        
+        <!-- end big banner -->
+        
+        
+       <!-- start new arivals -->
+       <section class="ournew_arrivals">
+           <div class="container">
+               <h3 class="uv_title hhfix">NEW ARRIVAL</h3>
+               <div class="row">
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p1.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Super Air Cleaner Pro Medical Grade H13 Filter wi...</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                                   <span class="price_pre">15000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p2.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Clean Air 6-in-1 Air Purifi er with HEPA filter and UV ...</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p3.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">UV Care Portable Germinator 2.0</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-xs-6">
+                       <div class="prods">
+                           <div class="pr_img">
+                               <a href="#"><img src="images/p4.jpg" class="img-responsive"></a>
+                           </div>
+                           <div class="pr_cont">
+                               <div class="pr_name">
+                                   <a class="fixall" href="#">Stayfresh! Canada Breathe Clean</a>
+                               </div>
+                               <div class="pr_price">
+                                   <span class="price_cur">10000 SAR</span>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="uv_bros">
+                  <a class="fixall" href="#">Browse All Products</a>
+              </div>
+           </div>
+       </section>
+       
+       <!-- end NEW ARRIVAL -->
+       
+       
+       <!-- start features -->
+       <section class="our_feats">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-3 col-sm-6">
+                       <div class="feat_cont">
+                           <div class="feat_icon"><i class="fas fa-star"></i></div>
+                           <div class="feat_txt">Premuim Product</div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div class="feat_cont">
+                           <div class="feat_icon"><i class="fas fa-shield-alt"></i></div>
+                           <div class="feat_txt">MONEY GUARANTEE</div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div class="feat_cont">
+                           <div class="feat_icon"><i class="fas fa-archive"></i></div>
+                           <div class="feat_txt">FAST SHIPPING</div>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div class="feat_cont">
+                           <div class="feat_icon"><i class="fas fa-headset"></i></div>
+                           <div class="feat_txt">ONLINE SUPPORT</div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       
+       <!-- end features -->
+       
+       
+         <!-- start NEWSLETTER -->
+      <section class="uv_newsletter">
+          <div class="container">
+              <div class="nletter_cont">
+                  <h3 class="uv_title hhfix">SUPSCRIBE TO OUR NEWSLETTER</h3>
+                  <div class="uv_txt">
+                      Sign up for special deals, rewards, and advice. No spam, ever. We promise.
+                  </div>
+                  <div class="form-group mail_cont">
+                    <input type="email" class="form-control ffmail_input" id="exampleInputEmail1" placeholder="Email adress">
+                    <button class="fm_check">Subscribe</button>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+      <!-- end NEWSLETTER-->
+      
+      
+      	       <!-- start footer -->
+	       <footer>
+	           <div class="container">
+				    <div class="top_focont">
+				        <div class="row">
+                            <div class="col-md-4">
+                                <div class="social_cont">
+                                    <h3 class="uv_title hhfix">OUR SOCIAL MEDIA</h3>
+                                    <ul class="ff_social list-unstyled list-inline ulfix">
+                                      <li>
+                                        <a class="fixall" href="#"><i class="fab fa-facebook-f"></i></a>
+                                      </li>
+                                      <li>
+                                        <a class="fixall" href="#"><i class="fab fa-twitter"></i></a>
+                                      </li>
+                                      <li>
+                                        <a class="fixall" href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                                      </li>
+                                      <li>
+                                        <a class="fixall" href="#"><i class="fab fa-instagram"></i></a>
+                                      </li>
+                                   </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id10" aria-expanded="false">Information</h5>
+                                    <ul class="list-unstyled collapse ulfix" id="id10" ulfix>
+                                        <li><a class="fixall" href="#">About Us </a></li>
+                                        <li><a class="fixall" href="#">Delivery Information</a></li>
+                                        <li><a class="fixall" href="#">Privacy Policy</a></li>
+                                        <li><a class="fixall" href="#">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links ulfix">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id12" aria-expanded="false">Customer Service</h5>
+                                    <ul class="list-unstyled collapse ulfix" id="id12">
+                                        <li><a class="fixall" href="#">Contact Us</a></li>
+                                        <li><a class="fixall" href="#">Returns</a></li>
+                                        <li><a class="fixall" href="#">Site Map</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id11" aria-expanded="false">Extras</h5>
+                                    <ul class="list-unstyled collapse ulfix" id="id11">
+                                        <li><a class="fixall" href="#">Brands</a></li>
+                                        <li><a class="fixall" href="#">Gift Certificates</a></li>
+                                        <li><a class="fixall" href="#">Affiliate</a></li>
+                                        <li><a class="fixall" href="#">Specials</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="fast_links">
+                                    <h5 class="ff_title fsm_title" data-toggle="collapse" data-target="#id9" aria-expanded="false">My Account</h5>
+                                    <ul class="list-unstyled collapse ulfix" id="id9">
+                                        <li><a class="fixall" href="#">My Account</a></li>
+                                        <li><a class="fixall" href="#">Order History</a></li>
+                                        <li><a class="fixall" href="#">Wish List</a></li>
+                                        <li><a class="fixall" href="#">Newsletter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                       </div>
+				    </div>
+                    <div class="down_focont">
+                        <div class="ff_rghts">
+                           Copyright ©  UV CARE 
+                        </div>
+                        <div class="mad_in"> Made In <a href="#"> <img src="images/tasawk-c-en.png"> </a></div>
+                        <div class="ff_pay">
+                            <a href="#">
+                                <img src="images/pay.png">
+                            </a>
+                        </div>
+                    </div>
+               </div>
+	       </footer>
+	       
+	       <!-- end footer -->
+	     
+    </body>
+</html> 

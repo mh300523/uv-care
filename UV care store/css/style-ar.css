@@ -1,0 +1,161 @@
+.top_bar .t_lang > .tl_anc > span
+{
+    margin-right: 3px;
+}
+header .nav_bar > li:not(last-child)
+{
+    padding-right: 33px;
+}
+.h_recomend .h_shoplist .src_car > span
+{
+	right: -7px;
+}
+.changed
+{
+    right: 0;
+}
+.search_icon
+{
+    left: 28px;
+}
+.main_slider .swiper-button-next
+{
+    left: 34px;
+}
+.main_slider .swiper-button-prev
+{
+    right: 34px;
+}
+.main_slider .swiper-button-next:after,.pro_slider .swiper-button-next:after
+{
+    content: '\f104';
+}
+.main_slider .swiper-button-prev:after,.pro_slider .swiper-button-prev:after
+{
+    content: '\f105';
+}
+.prods .pr_price > .price_cur
+{
+    margin-left: 3px;
+}
+.prods .pr_price > .price_pre
+{
+    margin-right: 3px;
+}
+.prods .pr_name > a
+{
+    font-size: 16px;
+}
+.uv_bros > a:before,.mail_cont .fm_check:before
+{
+    right: 0;
+}
+.feat_cont .feat_icon
+{
+    margin-left: 14px;
+}
+.mail_cont .fm_check
+{
+    left: 0;
+}
+.top_focont .uv_title
+{
+    text-align: right;
+}
+.top_focont .uv_title:after,footer .ff_title:after
+{
+    right: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0)
+}
+footer .ff_social > li:not(:last-child)
+{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+    header .nav_bar > li:not(last-child)
+    {
+        padding-left: 33px;
+        padding-right: 0;
+    }
+    .prods .pr_name
+    {
+        height: 71px;
+    }
+    .prods .pr_price > .price_cur,.prods .pr_price > .price_pre
+    {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        left: 20px;
+    }
+    .top_focont .uv_title
+    {
+        text-align: center;
+    }
+    .top_focont .uv_title:after
+    {
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .uv_newsletter .uv_txt
+    {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+    header .nav_bar > li:not(last-child)
+    {
+        padding-right: 16px;
+    }
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    header .nav_bar > li:not(last-child)
+    {
+        padding-right: 15px;
+    }
+    .sam_menu > li
+    {
+        padding: 6px 5px;
+    }
+    .feat_cont .feat_icon
+    {
+        margin-left: 0;
+    }
+}

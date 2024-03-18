@@ -1,0 +1,113 @@
+body
+{
+    direction: rtl;
+    text-align: right;
+}
+.top_bar .t_lang > .tl_anc::after
+{
+    margin-right: 3px;
+}
+header .nav_bar > li:not(:last-child)
+{
+	margin-left: 40px;
+}
+.main_slider .swiper-button-next
+{
+    left: 34px;
+}
+.main_slider .swiper-button-prev
+{
+    right: 34px;
+}
+.main_slider .swiper-button-next:after,.pro_slider .swiper-button-next:after
+{
+    content: '\f104';
+}
+.main_slider .swiper-button-prev:after,.pro_slider .swiper-button-prev:after
+{
+    content: '\f105';
+}
+.about_uvcare .aboutuv_back
+{
+    right: -30%;
+}
+.uv_title:after,.oprod_cont .uv_title:after,.joinuv .ready_txt > span:after
+{
+    right: 0;
+}
+.uv_bros > a:before,.mail_cont .fm_check:before
+{
+    right: 0;
+}
+.whyuv_cont .whyuvc_icon
+{
+    margin-left: 30px;
+}
+.joinuv .ready_cont
+{
+    padding-left: 10%;
+}
+.joinuv .ready_back
+{
+    left: 0;
+}
+.uv_news .uvn_date
+{
+    right: 35px;
+}
+.mail_cont .fm_check
+{
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+   
+}
+
+@media (max-width:991px)	
+{
+    .uv_news .uvn_date
+    {
+        right: 15px;
+    }
+}
+
+@media (max-width:767px)	
+{
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    header .nav_bar > li:not(:last-child)
+    {
+        margin-left: 0;
+    }
+    .uv_title:after
+    {
+        left: 50%;
+        right: auto;
+    }
+    .whyuv_cont .whyuvc_icon
+    {
+        margin-left: 0px;
+    }
+}
